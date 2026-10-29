@@ -12,14 +12,18 @@ This repository contains two end-to-end machine learning projects. Each one foll
 
 ## Repository layout
 
+## Repository layout
+
 ```
 .
 ├── project1_uber_fare_estimator.ipynb
+├── Uber_Fare_Estimator_Report.pdf
+├── Uber_Fare_Estimator_Presentation.pptx
 ├── project2_credit_card_fraud.ipynb
+├── Credit Card Fraud Detection I Re...pdf    (Project 2 report)
+├── Credit Card Fraud Detection.pptx          (Project 2 presentation)
 ├── requirements.txt
-├── README.md
-├── data/        # put the CSV files here (not included)
-└── figures/     # charts are saved here automatically when you run the notebooks
+└── README.md
 ```
 
 ## Datasets (not included, download them yourself)
@@ -54,9 +58,9 @@ Open a notebook and choose **Run All**.
 
 ## Results
 
-Fill in after running the notebooks on the real datasets.
+## Results
 
 | Project | Best model | Key metrics |
 |---------|-----------|-------------|
-| 1 | | |
-| 2 | | |
+| 1 | Random Forest (tuned) | Test RMSE 2.998, MAE 1.562, R² 0.897 |
+| 2 | XGBoost (tuned + threshold) | Precision 0.986, Recall 0.758, F1 0.857, PR-AUC 0.817 |
