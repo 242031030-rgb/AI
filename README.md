@@ -11,7 +11,6 @@ This repository contains two end-to-end machine learning projects. Each one foll
 | 1 | Uber/Lyft Ride Fare Estimator | Regression | Linear Regression | Random Forest (RandomizedSearchCV) | RMSE, MAE, R² |
 | 2 | Credit Card Fraud Detection | Binary classification (imbalanced) | Logistic Regression (class weights, SMOTE) | XGBoost (RandomizedSearchCV) | Recall, Precision, F1, PR-AUC, Confusion Matrix |
 
-## Repository layout
 
 ## Repository layout
 
@@ -57,7 +56,6 @@ Open a notebook and choose **Run All**.
 - **Project 2:** because fraud is extremely rare, accuracy is not used to judge models. A "dummy" model that always predicts "not fraud" is included to show why.
 - Settings such as `READ_ROWS`, `N_ITER` and `TUNE_ROWS` at the top of each notebook control how long the run takes. Increase them for a more thorough search.
 
-## Results
 
 ## Results
 
