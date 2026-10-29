@@ -1,6 +1,7 @@
 # Machine Learning Capstone Project
 
 **Author:** Mozammel Hoque Sagor 
+
 **Course:** Machine Learning, Chapter 14 Capstone Project
 
 This repository contains two end-to-end machine learning projects. Each one follows the same pipeline: data acquisition and EDA, preprocessing, a baseline model plus a complex model, hyperparameter tuning, and rigorous evaluation.
